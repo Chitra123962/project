@@ -1,0 +1,10 @@
+<div class="div">
+    <h1>Add Movies</h1>
+<form [formGroup]='registerForm'>
+    <p>Movie Name:<input type="text" placeholder="Enter the name" formControlName="mname"></p>
+   <p>Language:<input type="text" placeholder="Enter language" formControlName="lang"></p>
+   <p>Genre:<input type="text" placeholder="Enter genre" formControlName="genre"></p>
+   <button (click)="save(registerForm)">Save</button>&nbsp;&nbsp;
+   <button (click)="list()">Movie List</button>
+</form>
+</div>

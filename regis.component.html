@@ -1,0 +1,18 @@
+<div class='div'>
+<form [formGroup]="register">
+        <div class="container">
+<h1>Register</h1>
+<hr>
+<label>Username:</label>
+<input type="text" formControlName="name"><br /><br />
+<label>Password:</label>
+<input type="password" formControlName="pass"><br /><br />
+<label>Confirm Password:</label>
+<input type="password" formControlName="npass"><br /><br />
+
+<button (click)="reg(register.value)">Register</button>
+</div>
+<p>Already have an account? 
+    <a href="C:\Users\User\project1\src\app\logi\logi.component.html" (click)="log()">Login here</a></p>
+        </form>
+        </div>

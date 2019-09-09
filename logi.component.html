@@ -1,0 +1,19 @@
+<div class="div">
+<form [formGroup]="log">
+    <div class="container">
+<h1>Login
+</h1>
+
+Username:
+<input type="text" formControlName="name"><br /><br />
+Password:
+<input type="password"  formControlName="pass"><br /><br />
+
+<button (click)="trii(log.value)">Submit</button>
+
+</div>
+<p>Don't have an account? 
+<a href="C:\Users\User\project1\src\app\logi\regis.component.html" (click)="first()">Register here</a></p>
+
+    </form>
+    </div>
